@@ -8,7 +8,7 @@ s.summary = "SDKBipDrive prueba SDK lets a user select an ice cream flavor."
 s.requires_arc = true
 
 # 2
-s.version = "0.1.3"
+s.version = "0.1.4"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -21,7 +21,7 @@ s.homepage = "https://github.com/lamemen22/SDKBipDrive"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
 s.source = { :git => "https://github.com/lamemen22/SDKBipDrive.git",
-             :tag => "0.1.3" }
+             :tag => "0.1.4" }
 
 # 7
 s.framework = "UIKit"
@@ -29,7 +29,7 @@ s.dependency 'Alamofire', '~> 4.7'
 s.dependency 'MBProgressHUD', '~> 1.1.0'
 
 # 8
-s.source_files = "BipAndDriveSDK/**/*.{swift,h.m}"
+s.source_files = "SDKBipDrive/**/*.{swift}"
 
 # 9
 s.resources = "SDKBipDrive/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
