@@ -1,0 +1,6 @@
+module Pods_SDKBipDrive {
+  umbrella header "Pods-SDKBipDrive-umbrella.h"
+
+  export *
+  module * { export * }
+}
