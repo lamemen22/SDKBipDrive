@@ -8,7 +8,7 @@ s.summary = "SDKBipDrive prueba SDK lets a user select an ice cream flavor."
 s.requires_arc = true
 
 # 2
-s.version = "0.1.5"
+s.version = "0.1.6"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -21,7 +21,7 @@ s.homepage = "https://github.com/lamemen22/SDKBipDrive"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
 s.source = { :git => "https://github.com/lamemen22/SDKBipDrive.git",
-             :tag => "0.1.5" }
+             :tag => "0.1.6" }
 
 # 7
 s.framework = "UIKit"

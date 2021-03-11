@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7897DA15D085A101F336AF8E /* libPods-SDKBipDrive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 937EC7876F5BD20682A4FA6C /* libPods-SDKBipDrive.a */; };
+		84C4BBAF25FA2BE500D7863E /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C4BBAE25FA2BE500D7863E /* InitialViewController.swift */; };
+		84C4BBB325FA2C1600D7863E /* InitialViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C4BBB225FA2C1600D7863E /* InitialViewController.storyboard */; };
 		84E2605025F646AD007FF711 /* SDKBipDrive.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E2604E25F646AD007FF711 /* SDKBipDrive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84E2606525F65062007FF711 /* RGBAColorFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2606125F65061007FF711 /* RGBAColorFromString.swift */; };
 		84E2606625F65062007FF711 /* PickFlavorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2606325F65062007FF711 /* PickFlavorViewController.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84C4BBAE25FA2BE500D7863E /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		84C4BBB225FA2C1600D7863E /* InitialViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InitialViewController.storyboard; sourceTree = "<group>"; };
 		84E2604B25F646AD007FF711 /* SDKBipDrive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKBipDrive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E2604E25F646AD007FF711 /* SDKBipDrive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKBipDrive.h; sourceTree = "<group>"; };
 		84E2604F25F646AD007FF711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +60,15 @@
 				937EC7876F5BD20682A4FA6C /* libPods-SDKBipDrive.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84C4BBB125FA2BF000D7863E /* Initial */ = {
+			isa = PBXGroup;
+			children = (
+				84C4BBAE25FA2BE500D7863E /* InitialViewController.swift */,
+				84C4BBB225FA2C1600D7863E /* InitialViewController.storyboard */,
+			);
+			path = Initial;
 			sourceTree = "<group>";
 		};
 		84E2604125F646AD007FF711 = {
@@ -101,6 +114,7 @@
 		84E2606225F65062007FF711 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				84C4BBB125FA2BF000D7863E /* Initial */,
 				84E2606325F65062007FF711 /* PickFlavorViewController.swift */,
 				84E2606425F65062007FF711 /* PickFlavorDataSource.swift */,
 			);
@@ -212,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C4BBB325FA2C1600D7863E /* InitialViewController.storyboard in Resources */,
 				84E2606E25F65074007FF711 /* Images.xcassets in Resources */,
 				84E2607825F6507D007FF711 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +271,7 @@
 				84E2606625F65062007FF711 /* PickFlavorViewController.swift in Sources */,
 				84E2607625F6507C007FF711 /* ScoopCell.swift in Sources */,
 				84E2607725F6507C007FF711 /* ScoopView.swift in Sources */,
+				84C4BBAF25FA2BE500D7863E /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
