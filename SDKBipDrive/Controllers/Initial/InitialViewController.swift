@@ -6,10 +6,12 @@
 //
 
 import UIKit
+import Alamofire
+import MBProgressHUD
 
-class InitialViewController: UIViewController {
+public class InitialViewController: UIViewController {
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
